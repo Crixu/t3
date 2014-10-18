@@ -4,10 +4,10 @@
 	<name>t3_bs3_blank</name>
 	<version>2.1.6</version>
 	<creationDate>31 July 2014</creationDate>
-	<author>JoomlArt.com</author>
-	<authorEmail>webmaster@joomlart.com</authorEmail>
-	<authorUrl>http://www.t3-framework.org</authorUrl>
-	<copyright>Copyright (C), J.O.O.M Solutions Co., Ltd. All Rights Reserved.</copyright>
+	<author>OptimumTheme.com</author>
+	<authorEmail>info@optimumtheme.com</authorEmail>
+	<authorUrl>http://www.optimumtheme.com</authorUrl>
+	<copyright>Copyright (C), Optimum Theme. All Rights Reserved.</copyright>
 	<license>license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
 	<t3>
 		<base>base-bs3</base>
@@ -16,10 +16,10 @@
 		<![CDATA[
 		<div align="center">
 			<div class="alert alert-success" style="color: #333333;">
-				<p>Thank you for using our Engin Theme! Here are some useful links for you:</p>
+				<p>Thank you for using our Blank Theme! Here are some useful links for you:</p>
 				<h4><a href="http://www.optimumtheme.com/" title="Joomla Templates" target="_blank">Optimum Theme</a> | <a href="http://www.optimumtheme.com/demo" title="Joomla Templates" target="_blank">Demo</a> | <a href="http://www.optimumtheme.com/themes.html" title="Joomla Themes" target="_blank">All Templates</a> | <a href="http://www.optimumtheme.com/join.html" title="Template Club" target="_blank">Join/Renew</a></h4>
 				<p> </p>
-				<span style="color:#FF0000">Note: Engin Theme requires T3 plugin to be installed and enabled. You can download the latest version from the template detail page in: www.optimumtheme.com/themes.html </span><p></p>
+				<span style="color:#FF0000">Note: Blank Theme requires T3 plugin to be installed and enabled. You can download the latest version from the template detail page in: www.optimumtheme.com/themes.html </span><p></p>
 				<p>Copyright 2013 - 2014 <a href='http://www.optimumtheme.com/' title='Joomla Templates'>Optimum Theme</a>.</p>
 			</div>
 			<style>table.adminform{width: 100%;}</style>
