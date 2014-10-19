@@ -11,6 +11,5 @@
 defined('_JEXEC') or die;
 ?>
 <div class="module">
-	<small><?php echo $lineone; ?> Designed by <a href="http://www.joomlart.com/" title="Visit Joomlart.com!" <?php echo method_exists('T3', 'isHome') && T3::isHome() ? '' : 'rel="nofollow"' ?>>JoomlArt.com</a>.</small>
-	<small><?php echo JText::_( 'MOD_FOOTER_LINE2' ); ?></small>
+	<small><?php echo $lineone; ?> Designed by <a href="http://www.optimumtheme.com/" target="_blank" title="Joomla Templates">Optimum</a>.</small>
 </div>
