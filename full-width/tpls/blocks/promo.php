@@ -13,12 +13,13 @@
 defined('_JEXEC') or die;
 
 ?>
-<?php if ($this->countModules('promo')) : ?>
-<!-- PROMO -->	
+
+<?php if ($this->checkSpotlight('promo', 'promo-1')) : ?>
+	<!-- PROMO -->
 	<div class="ot-promo">
 		<div class="container">
-			<jdoc:include type="modules" name="<?php $this->_p('promo') ?>" />
+			<?php $this->spotlight('promo', 'promo-1') ?>
 		</div>
 	</div>
-<!-- //PROMO -->
+	<!-- //PROMO -->
 <?php endif ?>

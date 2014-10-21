@@ -67,7 +67,12 @@
 		<position>sidebar-1</position>
 		<position>sidebar-2</position>
 		<position>mast-col</position>
-		<position>promo</position>
+		<position>promo-1</position>
+		<position>promo-2</position>
+		<position>promo-3</position>
+		<position>promo-4</position>
+		<position>promo-5</position>
+		<position>promo-6</position>
 		<position>ot-tabs</position>
 		<position>slideshow</position>
 		<position>slide-1</position>
