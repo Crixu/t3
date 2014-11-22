@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" type="template" method="upgrade" client="site">
+	<name>t3_bs3_blank</name>
+	<version>2.1.6</version>
+	<creationDate>31 July 2014</creationDate>
+	<author>OptimumTheme.com</author>
+	<authorEmail>info@optimumtheme.com</authorEmail>
+	<authorUrl>http://www.optimumtheme.com</authorUrl>
+	<copyright>Copyright (C), Optimum Theme. All Rights Reserved.</copyright>
+	<license>license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<t3>
+		<base>base-bs3</base>
+	</t3>
+	<description>
+		<![CDATA[
+		<div align="center">
+			<div class="alert alert-success" style="color: #333333;">
+				<p>Thank you for using our Blank Theme! Here are some useful links for you:</p>
+				<h4><a href="http://www.optimumtheme.com/" title="Joomla Templates" target="_blank">Optimum Theme</a> | <a href="http://www.optimumtheme.com/demo" title="Joomla Templates" target="_blank">Demo</a> | <a href="http://www.optimumtheme.com/themes.html" title="Joomla Themes" target="_blank">All Templates</a> | <a href="http://www.optimumtheme.com/join.html" title="Template Club" target="_blank">Join/Renew</a></h4>
+				<p> </p>
+				<span style="color:#FF0000">Note: Blank Theme requires T3 plugin to be installed and enabled. You can download the latest version from the template detail page in: www.optimumtheme.com/themes.html </span><p></p>
+				<p>Copyright 2013 - 2014 <a href='http://www.optimumtheme.com/' title='Joomla Templates'>Optimum Theme</a>.</p>
+			</div>
+			<style>table.adminform{width: 100%;}</style>
+		</div>
+		]]>
+	</description>
+	<files>
+		<filename>component.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>thememagic.xml</filename>
+		<filename>templateInfo.php</filename>
+		<filename>templateHook.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>etc</folder>
+		<folder>fonts</folder>
+		<folder>html</folder>
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>less</folder>
+		<folder>language</folder>
+		<folder>images</folder>
+		<folder>tpls</folder>
+	</files>
+	
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_t3_bs3_blank.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_t3_bs3_blank.sys.ini</language>
+	</languages>
+
+	<positions>
+		<position>topbar-l</position>
+		<position>topbar-r</position>
+		<position>languageswitcherload</position>
+		<position>head-search</position>
+		<position>banner</position>
+		<position>mainnav</position>
+		<position>navhelper</position>
+		<position>breadcrumbs</position>
+		<position>off-canvas</position>
+		<position>ot-modal</position>
+		<position>sidebar-1</position>
+		<position>sidebar-2</position>
+		<position>mast-col</position>
+		<position>promo-1</position>
+		<position>promo-2</position>
+		<position>promo-3</position>
+		<position>promo-4</position>
+		<position>promo-5</position>
+		<position>promo-6</position>
+		<position>slideshow</position>
+		<position>slide-1</position>
+		<position>slide-2</position>
+		<position>slide-3</position>
+		<position>slide-4</position>
+		<position>slide-5</position>
+		<position>slide-6</position>
+		<position>grid-1</position>
+		<position>grid-2</position>
+		<position>grid-3</position>
+		<position>grid-4</position>
+		<position>grid-5</position>
+		<position>grid-6</position>
+		<position>grid-7</position>
+		<position>grid-8</position>
+		<position>grid-9</position>
+		<position>grid-10</position>
+		<position>grid-11</position>
+		<position>grid-12</position>
+		<position>grid-13</position>
+		<position>grid-14</position>
+		<position>grid-15</position>
+		<position>grid-16</position>
+		<position>grid-17</position>
+		<position>grid-18</position>
+		<position>grid-19</position>
+		<position>grid-20</position>
+		<position>grid-21</position>
+		<position>grid-22</position>
+		<position>grid-23</position>
+		<position>grid-24</position>
+		<position>grid-25</position>
+		<position>grid-26</position>
+		<position>grid-27</position>
+		<position>grid-28</position>
+		<position>grid-29</position>
+		<position>grid-30</position>
+		<position>grid-31</position>
+		<position>grid-32</position>
+		<position>grid-33</position>
+		<position>grid-34</position>
+		<position>grid-35</position>
+		<position>grid-36</position>
+		<position>footer-1</position>
+		<position>footer-2</position>
+		<position>footer-3</position>
+		<position>footer-4</position>
+		<position>footer-5</position>
+		<position>footer-6</position>
+		<position>footer-7</position>
+		<position>footer-8</position>
+		<position>footer-9</position>
+		<position>footer-10</position>
+		<position>footer-11</position>
+		<position>footer-12</position>		
+		<position>debug</position>
+	</positions>
+
+	<config>
+		<fields name="params" addfieldpath="/plugins/system/t3/includes/depend">
+			
+			<fieldset name="ot_params" label="Optimum Features">
+				
+				
+			<field type="t3depend" function="@legend" label="Modal Module" description="You can enable 'modal module' feature. The modules published on ot-modal position are opened as modal (popup)."/>
+			
+				<field name="otModalPosition" type="radio" class="btn-group" default="1" description="This option allows you to disable or enable template's modal module position." label="Modal Position">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="otModalIcon" type="textfield" filter="raw" default="fa fa-user" label="Icon for Modal Position Button" description="Specify the Fontawesome icon for the button of the template's modal position. You can see all available icons on fontawesome.io website."/>
+				
+				<field type="t3depend" function="@legend" label="Others" description="Other template settings and features."/>
+				
+				<field name="ot_mainbody_disabled" type="radio" class="btn-group" default="0" description="This option hides any content that will normally render in the main body div including the main content, sidebars, above and below modules for the front page." label="Disable Mainbody on homepage">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				
+				<field type="t3depend" function="@legend" label="Social Icons" description="Enable or disable social icons. If you enable this feature, please do not forget to fill URL fields for each icons."/>
+				
+				<field name="sociallink1" type="text" filter="raw" default="" label="Facebook Link" description="Enter  your social link"/>	
+				<field name="sociallink2" type="text" filter="raw" default="" label="Twitter Link" description="Enter  your social link"/>
+				<field name="sociallink3" type="text" filter="raw" default="" label="Google+ Link" description="Enter  your social link"/>
+				<field name="sociallink4" type="text" filter="raw" default="" label="Dribbble Link" description="Enter  your social link"/>
+				<field name="sociallink5" type="text" filter="raw" default="" label="Flickr Link" description="Enter  your social link"/>
+				<field name="sociallink6" type="text" filter="raw" default="" label="Youtube Link" description="Enter  your social link"/>
+				<field name="sociallink7" type="text" filter="raw" default="" label="LinkedIn Link" description="Enter  your social link"/>
+				<field name="sociallink8" type="text" filter="raw" default="" label="RSS Link" description="Enter  your social link"/>	
+		
+			</fieldset>
+			
+		</fields>
+	</config>
+
+	<updateservers>
+		<server type="collection">http://update.joomlart.com/service/tracking/list.xml</server>
+	</updateservers>
+
+</extension>
