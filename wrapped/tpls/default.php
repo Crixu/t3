@@ -33,7 +33,7 @@ $hide_mainbody = (!$this->params->get("ot_mainbody_disabled",true)==false && ($m
 <body>
 
 <div class="t3-wrapper"> <!-- Need this wrapper for off-canvas menu. Remove if you don't use of-canvas -->
-	<div class="ot-border container">	
+	<div class="ot-frame container">	
 	  <?php $this->loadBlock('topbar') ?>	
 	
 	  <?php $this->loadBlock('header') ?>	

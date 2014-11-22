@@ -56,6 +56,13 @@ if (is_file(T3_TEMPLATE_PATH . '/css/custom.css')) {
 }
 ?>
 
+<?php
+// CUSTOM JS
+if (is_file(T3_TEMPLATE_PATH . '/js/script.js')) {
+	$this->addScript(T3_TEMPLATE_URL . '/js/script.js');
+}
+?>
+
 <!-- Le HTML5 shim and media query for IE8 support -->
 <!--[if lt IE 9]>
 <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
